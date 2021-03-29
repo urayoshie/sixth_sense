@@ -1,6 +1,6 @@
 # Sixth Sense
 
-# description
+## description
 
 主人公が直感で A または B の道を選び、先へ進みます。
 
@@ -8,7 +8,7 @@
 アイテムを見つけて HP を上げてゴールを目指します。
 主人公の HP が 0 または 1000 以上になるとゲームは終わります。
 
-# file structure
+## file structure
 
 このアプリは以下のファイルで構成されています。
 
@@ -20,19 +20,19 @@
 | way.rb       | A 道と B 道のデータ                                            |
 | waylist.rb   | 道を選ばれた後の処理とプレイヤー(主人公)の残りの HP の表示     |
 
-# how to play
+## how to play
 
-ゲーム開始準備
-
-```
-
-(1) git clone https://github.com/urayoshie/sixth_sense.git
-(2) cd sixth_sense
-(3) ruby main.rb
+- ゲーム開始準備
 
 ```
 
-ゲーム準備後のプレイ方法
+git clone https://github.com/urayoshie/sixth_sense.git
+cd sixth_sense
+ruby main.rb
+
+```
+
+- ゲーム準備後のプレイ方法
 
 ```
 
